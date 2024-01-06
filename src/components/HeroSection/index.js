@@ -115,7 +115,7 @@ const Title = styled.div`
 `;
 
 const TextLoop = styled.div`
-  font-weight: 600;
+  font-weight: 500;
   font-size: 32px;
   display: flex;
   gap: 12px;
@@ -224,7 +224,7 @@ const Hero = () => {
               </Title>
               <TextLoop>
                 I am a
-                <span>
+                <Span>
                   <Typewriter
                     options={{
                       strings: Bio.roles,
@@ -232,7 +232,7 @@ const Hero = () => {
                       loop: true,
                     }}
                   />
-                </span>
+                </Span>
               </TextLoop>
               <SubTitle>{Bio.description}</SubTitle>
               <ResumeButton href={Bio.resume} targets="_blank">
