@@ -337,3 +337,33 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
 ];
+
+export const education = [
+  {
+    id: 0,
+    img: "https://th.bing.com/th?id=OIP.zMCBY7FrxpY_0cLxxZU-rQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+    school: "Texas A&M University, College Station, Texas",
+    date: "Aug 2023 - May 2025",
+    grade: "4/4",
+    desc: "I am currently pursuing a Master's degree in Computer Science and Engineering at Texas A&M University. I completed 1 semester and have a CGPA of 4. I have taken courses in Machine Learning, Artificial Intelligence and Algorithms.",
+    degree: "Master of Computer Science",
+  },
+  {
+    id: 1,
+    img: "https://storage.googleapis.com/ezap-prod/colleges/4505/1462520333logonew.png",
+    school: "Vellore Institute of Technology, VIT-Vellore",
+    date: "July 2017 - Jun 2021",
+    grade: "9.25/10",
+    desc: "I completed my Bachelors at VIT in Electronics and Communication.",
+    degree: "B.Tech in ECE",
+  },
+  {
+    id: 2,
+    img: "https://image3.mouthshut.com/images/imagesp/925732747s.jpg",
+    school: "SBOA School and Junior College",
+    date: "Apr 2015 - Apr 2017",
+    grade: "90%",
+    desc: "I completed my class 12 education at SBOA School and Junior College.",
+    degree: "CBSE(XII), Computer Science",
+  },
+];
