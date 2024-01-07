@@ -249,3 +249,91 @@ export const Bio = {
       //doc: "",
     },
   ];
+
+
+export const projects = [
+  {
+    id: 0,
+    title: "Sentiment Analysis",
+    date: "Sep 2023 - Dec 2023",
+    description:
+      "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: [
+      "Python",
+      "Pytorch",
+      "Transformers",
+      "ANN",
+      "Streamlit",
+    ],
+    category: "ML",
+    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+  },
+  {
+    id: 1,
+    title: "Sentiment Analysis 1",
+    date: "Sep 2023 - Dec 2023",
+    description:
+      "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: [
+      "Python",
+      "Pytorch",
+      "Transformers",
+      "ANN",
+      "Streamlit",
+    ],
+    category: "SOFTWARE",
+    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    member: [
+      {
+        name: "Vivek",
+        img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
+        linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
+        github: "https://github.com/viveklol",
+      },
+      {
+        name: "Viv1",
+        img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
+        linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
+        github: "https://github.com/viveklol",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Networking 2",
+    date: "Sep 2023 - Dec 2023",
+    description:
+      "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    tags: [
+      "Python",
+      "Pytorch",
+      "Transformers",
+      "ANN",
+      "Streamlit",
+    ],
+    category: "NETWORK",
+    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+  },
+  {
+    id: 3,
+    title: "Brain Tumor Detection",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+    image:
+      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    category: "ML",
+    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+  },
+];
