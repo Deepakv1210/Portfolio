@@ -177,6 +177,7 @@ const Navbar = () => {
             </MobileIcon>           
             <MobileIcon></MobileIcon>
             <NavItems>
+                <NavLink href='#about'>About</NavLink>
                 <NavLink href='#skills'>Skills</NavLink>
                 <NavLink href='#experience'>Experience</NavLink>
                 <NavLink href='#projects'>Projects</NavLink>
@@ -189,6 +190,9 @@ const Navbar = () => {
         {open && 
         <MobileMenu open={open}>
             <MobileMenu open={open}>
+                <MobileMenuLink href='#about' onClick={() => {
+                setOpen(!open)
+                }}>About</MobileMenuLink>
                 <MobileMenuLink href='#skills' onClick={() => {
                 setOpen(!open)
                 }}>Skills</MobileMenuLink>

@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+//import Contact from "./components/Contact";
 
 import { BrowserRouter as Router } from 'react-router-dom';
 const Body = styled.div`
@@ -32,11 +33,10 @@ function App() {
             <Skills />
             <Experience />
           </Wrapper>
+          <Projects />
           <Wrapper>
-            <Projects />
             <Education />
           </Wrapper>
-
         </Body>
       
       </Router>
