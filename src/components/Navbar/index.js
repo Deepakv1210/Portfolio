@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as LinkR } from 'react-router-dom';
-import { DiCssdeck } from 'react-icons/di';
-//import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+import { GiAbstract016 } from "react-icons/gi";
 import styled from "styled-components";
 import { FaBars } from 'react-icons/fa';
 import { useTheme } from 'styled-components';
@@ -169,7 +169,7 @@ const Navbar = () => {
         <NavContainer>
             <NavLogo to='/'>
             <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-                <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+              <GiAbstract016 size="2rem" /> <Span>Portfolio</Span>
             </a>
             </NavLogo> 
             <MobileIcon>
