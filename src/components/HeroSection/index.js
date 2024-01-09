@@ -235,9 +235,7 @@ const Hero = () => {
                 </Span>
               </TextLoop>
               <SubTitle>{Bio.description}</SubTitle>
-              <ResumeButton href={Bio.resume} targets="_blank">
-                Check Resume
-              </ResumeButton>
+              <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
               <Image src={HeroImg} alt="Hero" />
