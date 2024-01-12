@@ -273,22 +273,24 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Sentiment Analysis 1",
+    title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
-      "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+      "Stock market prediction project using Long Short-Term Memory (LSTM) neural networks.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/Deepakv1210/Stock_Crypto_Market_Prediction/assets/154148155/619ceef0-e093-4b70-b74f-c0678c62f934",
     tags: [
       "Python",
-      "Pytorch",
-      "Transformers",
-      "ANN",
+      "Keras",
+      "Tensorflow",
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
       "Streamlit",
     ],
     category: "SOFTWARE",
-    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
-    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    github: "https://github.com/Deepakv1210/Stock_Crypto_Market_Prediction/",
+    webapp: "https://stockcryptomarketprediction.streamlit.app/",
     member: [
       {
         name: "Vivek",
