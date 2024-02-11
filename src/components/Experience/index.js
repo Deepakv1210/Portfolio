@@ -80,7 +80,7 @@ const Experience = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience as a software engineer and working on different companies and projects.
+                    I have work experience as a Machine Learning engineer, having worked on various projects for different companies.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

@@ -127,16 +127,16 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
           }
           <Divider />
-          {toggle === 'SOFTWARE' ?
-            <ToggleButton active value="SOFTWARE" onClick={() => setToggle('SOFTWARE')}>SOFTWARE</ToggleButton>
+          {toggle === 'Gen AI' ?
+            <ToggleButton active value="Gen AI" onClick={() => setToggle('Gen AI')}>Gen AI</ToggleButton>
             :
-            <ToggleButton value="SOFTWARE" onClick={() => setToggle('SOFTWARE')}>SOFTWARE</ToggleButton>
+            <ToggleButton value="Gen AI" onClick={() => setToggle('Gen AI')}>Gen AI</ToggleButton>
           }
           <Divider />
-          {toggle === 'NETWORK' ?
-            <ToggleButton active value="NETWORK" onClick={() => setToggle('NETWORK')}>NETWORK</ToggleButton>
+          {toggle === 'OTHERS' ?
+            <ToggleButton active value="OTHERS" onClick={() => setToggle('OTHERS')}>OTHERS</ToggleButton>
             :
-            <ToggleButton value="NETWORK" onClick={() => setToggle('NETWORK')}>NETWORK</ToggleButton>
+            <ToggleButton value="OTHERS" onClick={() => setToggle('OTHERS')}>OTHERS</ToggleButton>
           }
         </ToggleGroup>
         <CardContainer>

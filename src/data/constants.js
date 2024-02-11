@@ -2,15 +2,15 @@ export const Bio = {
     name: "Deepak Kumar",
     roles: [
       "ML Engineer",
+      "Data Scientist",
       "Data Engineer",
       "Software Engineer",
-      "Programmer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Gen Ai and large language models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
     github: "https://github.com/Deepakv1210",
     resume:
-      "https://drive.google.com/file/d/1hol9yfQ9fJWpr7W6GiC4JtuTgFjBaD7h/view?usp=sharing",
+      "https://drive.google.com/file/d/1CqhSLtjNbnMCx5O9KvWrriQVnjp6TXqY/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-907a31146/",
     twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
@@ -18,7 +18,55 @@ export const Bio = {
   
   export const skills = [
     {
-      title: "Frontend",
+      title: "Machine Learning",
+      skills: [
+        {
+          name: "Tensorflow",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/2/20/Tensorflow-svgrepo-com.svg",
+        },
+
+        {
+          name: "Pytorch",
+          image:
+            "https://www.pngitem.com/pimgs/m/31-310639_pytorch-logo-png-transparent-png.png",
+        },
+        {
+          name: "Keras",
+          image: "https://aetperf.github.io/img/2021-01-29_01/1024px-Keras_logo.svg.png",
+        },
+        {
+          name: "Python",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        },
+        {
+          name: "Langchain",
+          image:
+            "https://styles.redditmedia.com/t5_7tpn6r/styles/communityIcon_vw08a423ptxa1.png",
+        },
+        {
+          name: "Hugging Face",
+          image: "https://jobs.shecancode.io/uploads/job/logo/35985511/hugging_face.png",
+        },
+
+        {
+          name: "OpenCV",
+          image: "https://raw.githubusercontent.com/github/explore/433c866c69205a7a46dc73d8b4bbc7c12a6638f6/topics/opencv/opencv.png",
+        },
+        {
+          name: "Scikit-Learn",
+          image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Scikit_learn_logo.svg",
+        },
+        {
+          name: "LlamaIndex",
+          image: "https://cdn-images-1.medium.com/max/1200/1*_mrG8FG_LiD23x0-mEtUkw.jpeg",
+        },
+      ],
+    },
+
+    {
+      title: "Software",
       skills: [
         {
           name: "React Js",
@@ -26,14 +74,8 @@ export const Bio = {
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         {
-          name: "Tensorflow",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/2/20/Tensorflow-svgrepo-com.svg",
-        },
-        {
-          name: "Next Js",
-          image:
-            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+          name: "Node Js",
+          image: "https://nodejs.org/static/images/logo.svg",
         },
         {
           name: "HTML",
@@ -50,51 +92,29 @@ export const Bio = {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
         {
-          name: "Bootstrap",
+          name: "Streammlit",
           image:
-            "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+            "https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png",
         },
         {
-          name: "Material UI",
+          name: "C",
           image:
-            "data:image/png;base64,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",
+            "https://www.pngitem.com/pimgs/m/31-312155_c-programming-language-logo-hd-png-download.png",
         },
         {
-          name: "Flutter",
+          name: "C++",
           image:
-            "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+            "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
         },
       ],
     },
     {
-      title: "Backend",
+      title: "Networks/Database",
       skills: [
         {
-          name: "Node Js",
-          image: "https://nodejs.org/static/images/logo.svg",
-        },
-        {
-          name: "Express Js",
+          name: "Wireshark",
           image:
-            "data:image/png;base64,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",
-        },
-        {
-          name: "Graph Ql",
-          image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
-        },
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
-        {
-          name: "MySQL",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
-        {
-          name: "Postgresql",
-          image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+            "https://www.pngkit.com/png/detail/365-3657626_wireshark-icon.png",
         },
         {
           name: "MongoDB",
@@ -102,34 +122,31 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
         {
-          name: "Firebase",
-          image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-        },
-      ],
-    },
-    {
-      title: "Android",
-      skills: [
-        {
-          name: "Java",
+          name: "ChromaDB",
           image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            "https://miro.medium.com/v2/resize:fit:793/1*2crwn9fsu58hVQua-dEa3w.png",
         },
         {
-          name: "Kotlin",
+          name: "Pinecone",
           image:
-            "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+            "https://dbdb.io/media/logos/pinecone.png",
         },
         {
-          name: "XML",
+          name: "Supabase",
           image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+            "https://media.zeemly.com/zeemly/product/supabase.png",
         },
         {
-          name: "Android Studio",
+          name: "Cisco Packet Tracer",
           image:
-            "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+            "https://filekumar.com/wp-content/uploads/2020/07/packet-Tracer-Picture.png",
         },
+        {
+          name: "SQL",
+          image:
+            "https://cdn1.vectorstock.com/i/1000x1000/77/30/sql-database-icon-logo-design-ui-or-ux-app-vector-17507730.jpg",
+        },
+        
       ],
     },
     {
@@ -151,29 +168,14 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
         {
-          name: "Netlify",
+          name: "Anaconda",
           image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            "https://www.clipartmax.com/png/middle/349-3490136_anaconda-icon-anaconda-python-icon.png",
         },
         {
           name: "VS Code",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-        },
-        {
-          name: "Postman",
-          image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
-        },
-        {
-          name: "Adobe XD",
-          image:
-            "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-        },
-        {
-          name: "Figma",
-          image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
         },
       ],
     },
@@ -183,21 +185,24 @@ export const Bio = {
     {
       id: 0,
       img: "https://th.bing.com/th/id/OIP.lBtHZ33_HRoCkq-l-wbK0wHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      role: "Software Engineer",
-      company: "ENDEAVR Institute",
+      role: "Machine Learning Engineer",
+      company: "ENDEAVR - Texas A&M University",
       date: "Sep 2023 - Present",
-      desc: "Working part-time as a volunteer on Obstacle detection in the lane using Computer Vision and Deep Learning for Autonomous Transit System.",
+      desc: "As a part-time volunteer at the ENDEAVR Institute, I played a pivotal role in addressing transportation and healthcare challenges in marginalized communities, leveraging Computer Vision and Deep Learning to enhance an Autonomous Transit System. Using YOLOv8 and OpenCV, I achieved a 30% boost in transportation efficiency and a 20% reduction in healthcare accessibility gaps. Additionally, I led a team of three undergraduates in implementing vehicle tracking with a modified Deep SORT algorithm, resulting in a remarkable 25% accuracy boost in distance estimation using stereo cameras.",
       skills: [
         "Python",
         "Keras",
         "Tensorflow",
         "Pytorch",
         "OpenCV",
+        "Image Processing",
+        "Computer Vision",
+        "Deep Learning",
       ],
       //doc: "",
     },
     {
-      id: 0,
+      id: 1,
       img: "https://th.bing.com/th?id=OIP.zMCBY7FrxpY_0cLxxZU-rQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
       role: "Student Assistant",
       company: "Texas A&M University",
@@ -206,35 +211,52 @@ export const Bio = {
       // doc: "",
     },
     {
-      id: 1,
+      id: 2,
       img: "https://vtlogo.com/wp-content/uploads/2020/12/act-fibernet-vector-logo-small.png",
-      role: "Assistant Manager of Technology",
+      role: "Machine Learning Engineer",
       company: "ACT Fibernet",
-      date: "Aug 2021 - March 2023",
-      desc: "My key responsibilities included backend network operations dealing with Layer 2 and Layer 3 protocols such as VPLS, MPLS, IS-IS, etc. Implementing automation scripts using Python, Bash and Perl across live production networks. Looking after daily network audits of Huawei, Juniper and Nokia switches and reporting deviations at the configuration level. Managing a team of 7 Network Operation Centre (NOC) engineers.",
+      date: "Apr 2022 - Jun 2023",
+      desc: 'As a Machine Learning Engineer, I significantly reduced system downtime by 80% with 90% predictive accuracy, anticipating failures in switches. My achievements include a 10% improvement in customer retention through XGBoost analysis, a 25% scalability boost with load balancing and sharding, and a 20% accuracy gain in sales forecasting using the SARIMA model. I also automated Layer 2/3 protocols, cutting manual efforts by 15%. Additionally, I optimized the ISIS network, reducing convergence time by 50% and streamlining routing tables.',
       skills: [
         "Python",
         "Perl",
-        "Bash",
-        "Wireshark",
-        "SolarWinds",
-        "Netsim",
-        "Cisco Packet Tracer",
+        "Pytorch",
+        "Tensorflow",
+        "Keras",
+        "Predictive Modeling",
+        "Time Series Analysis",
         "Leadership",
         "Teamwork",
         "Decision Making",
         "Docker",
-        "AWS",
         "MongoDB",
       ],
     },
     {
-      id: 2,
+      id: 3,
+      img: "https://vtlogo.com/wp-content/uploads/2020/12/act-fibernet-vector-logo-small.png",
+      role: "Data Analyst",
+      company: "ACT Fibernet",
+      date: "Jul 2021 - Apr 2022",
+      desc: "As an Analyst, I significantly improved cybersecurity by enhancing real-time detection of suspicious network activity, reducing false positives/negatives by 30%, and boosting threat identification by 50%. Additionally, I developed and implemented an automated VLAN Loop Detection script, executed hourly, resulting in an impressive 80% reduction in network incidents. My proactive approach and innovative solutions strengthened the organization's overall resilience against potential cyber threats.",
+      skills: [
+        "Python",
+        "Perl",
+        "Wireshark",
+        "SolarWinds",
+        "Cisco Packet Tracer",
+        "Teamwork",
+        "Decision Making",
+        "Docker",
+      ],
+    },
+    {
+      id: 4,
       img: "https://e-vehicleinfo.com/EVDekho/wp-content/uploads/2023/04/Screenshot-2023-04-17-172808.png",
-      role: "Engineering Intern",
+      role: "Machine Learning Intern",
       company: "Liger Mobility",
-      date: "March 2021 - June 2021",
-      desc: "As an Intern, I developed various road profiles using MATLAB and Simulink for testing the autonomous vehicle and built self driving four-wheeler obstacle avoiding bot with the help of Computer Vision and Deep Learning.",
+      date: "Jan 2021 - Jun 2021",
+      desc: "I engineered intricate road profiles in MATLAB and Simulink, optimizing vehicle performance with a 20% improvement in system responsiveness. Additionally, I constructed a Raspberry Pi-powered four-wheeler bot, implementing obstacle avoidance using Deep Learning and Computer Vision, leading to a notable 30% enhancement in navigation precision.",
       skills: [
         "Python",
         "Respberry Pi",
@@ -252,19 +274,56 @@ export const Bio = {
 
 
 export const projects = [
+
   {
     id: 0,
+    title: "Personal AI Chatbot",
+    date: "Dec 2023 - Present",
+    description:
+      "The AI Chat App seamlessly integrates audio, image, and PDF AI models, with zero-cost implementation and an interactive interface, leveraging the open-source Mistral LLM and Ollama.",
+    image:
+      "https://github.com/Deepakv1210/Personal-AI-Chatbot/assets/154148155/23ecc2bc-6513-4a3f-b185-46db2897b70a",
+    tags: [
+      "Python",
+      "LLMs",
+      "Pytorch",
+      "Transformers",
+      "Langchain",
+      "ChromaDB",
+      "yaml",
+      "Streamlit",
+    ],
+    category: "Gen AI",
+    github: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
+    webapp: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
+  },
+  {
+    id: 1,
+    title: "Brain Tumor Detection",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Constructed an U-Net model, obtaining 95% segmentation accuracy. The application enables seamless upload and analysis of single or multiple MRI scans, providing visualizations of original images and predicted tumor masks.",
+    image:
+      "https://github.com/Deepakv1210/Brain_Tumor_Segmentation_Web_App/assets/154148155/37b07f3f-b7e0-4c0d-bb52-29be7d5cc827",
+    tags: ["Python", "Keras", "TensorFlow", "Unet", "CNN", "Streamlit"],
+    category: "ML",
+    github: "https://github.com/Deepakv1210/Brain_Tumor_Segmentation_Web_App/",
+    webapp: "https://braintumorsegmentationwebapp.streamlit.app/",
+  },
+  {
+    id: 2,
     title: "Sentiment Analysis",
     date: "Sep 2023 - Dec 2023",
     description:
       "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://private-user-images.githubusercontent.com/154148155/303810575-6cc79661-90a7-494b-ae0b-845b41eb75a7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc1OTA4MTQsIm5iZiI6MTcwNzU5MDUxNCwicGF0aCI6Ii8xNTQxNDgxNTUvMzAzODEwNTc1LTZjYzc5NjYxLTkwYTctNDk0Yi1hZTBiLTg0NWI0MWViNzVhNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxMFQxODQxNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMGE2NzE4NTI0ZjY2MzgxOTNkZmRkYzQxOWMxODJmMjc0YjgzNDkyNTkwMGU0N2QyODc1NmFlZGZiNmQzNmRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.K8wlhkYiZTXsVu14lmJrV02gH9XxqURMAVOPHxI3bJE",
     tags: [
       "Python",
       "Pytorch",
+      "NLTK",
       "Transformers",
-      "ANN",
+      "FNN",
       "Streamlit",
     ],
     category: "ML",
@@ -272,7 +331,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
   {
-    id: 1,
+    id: 3,
     title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -288,56 +347,103 @@ export const projects = [
       "Matplotlib",
       "Streamlit",
     ],
-    category: "SOFTWARE",
+    category: "ML",
     github: "https://github.com/Deepakv1210/Stock_Crypto_Market_Prediction/",
     webapp: "https://stockcryptomarketprediction.streamlit.app/",
-    member: [
-      {
-        name: "Vivek",
-        img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
-        linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
-        github: "https://github.com/viveklol",
-      },
-      {
-        name: "Viv1",
-        img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
-        linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
-        github: "https://github.com/viveklol",
-      },
+    // member: [
+    //   {
+    //     name: "Vivek",
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
+    //     linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
+    //     github: "https://github.com/viveklol",
+    //   },
+    //   {
+    //     name: "Viv1",
+    //     img: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Penguin_Animation_hands_up.png",
+    //     linkedin: "https://www.linkedin.com/in/vivek-narukurthi/",
+    //     github: "https://github.com/viveklol",
+    //   },
+    // ],
+  },
+  // {
+  //   id: 2,
+  //   title: "Networking 2",
+  //   date: "Sep 2023 - Dec 2023",
+  //   description:
+  //     "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+  //   tags: [
+  //     "Python",
+  //     "Pytorch",
+  //     "Transformers",
+  //     "ANN",
+  //     "Streamlit",
+  //   ],
+  //   category: "NETWORK",
+  //   github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+  //   webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+  // },
+
+  {
+    id: 4,
+    title: "Smart ATS - Resume Evaluation with Generative AI",
+    date: "Jan 2024 - Feb 2024",
+    description:
+      "Smart Application Tracking System (ATS) is a Streamlit app powered by Google's GenerativeAI. This tool simulates an experienced ATS with expertise in the tech field, including software engineering, data science, data analysis, and big data engineering.",
+    image:
+      "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI/assets/154148155/e3fc10f6-7fce-49cd-a94e-9befb8c36df0",
+    tags: [
+      "Python",
+      "Google Generative AI",
+      "PyPDF",
+      "Streamlit",
     ],
+    category: "Gen AI",
+    github: "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI",
+    webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
   },
   {
-    id: 2,
-    title: "Networking 2",
-    date: "Sep 2023 - Dec 2023",
+    id: 5,
+    title: "Personalized Diet and Workout Recommender App",
+    date: "Aug 2023 - Sep 2023",
     description:
-      "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
+      "This is a web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a OpenAI API for a more interactive experience.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/723ecf56-9ee3-4de8-a684-f6f0494c82be",
     tags: [
       "Python",
       "Pytorch",
+      "Langchain",
       "Transformers",
-      "ANN",
+      "OpenAI",
       "Streamlit",
     ],
-    category: "NETWORK",
-    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
-    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+    category: "Gen AI",
+    github: "https://github.com/Deepakv1210/Diet-Recommender",
+    webapp: "https://diet-recommender.streamlit.app/",
   },
   {
-    id: 3,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    id: 6,
+    title: "Intelligent Image Compression",
+    date: "Mar 2021 - April 2021",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "This project aims to provide an overview of the Discrete Cosine Transform (DCT) based image compression technique and its implementation steps. The objective is to compress the size of JPEG images without significant loss in quality.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "ML",
-    github: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
-    webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
+      "https://github.com/Deepakv1210/Discrete-Cosine-Transform-for-Intelligent-Image-Compression/raw/main/images/block_diag.png",
+    tags: [
+      "Python",
+      "Matplotlib",
+      "Scipy",
+      "Numpy",
+      "PIL Image Lib",
+    ],
+    category: "OTHERS",
+    github: "https://github.com/Deepakv1210/Discrete-Cosine-Transform-for-Intelligent-Image-Compression",
+    webapp: "https://github.com/Deepakv1210/Discrete-Cosine-Transform-for-Intelligent-Image-Compression",
   },
+
+
 ];
 
 export const education = [
@@ -347,7 +453,7 @@ export const education = [
     school: "Texas A&M University, College Station, Texas",
     date: "Aug 2023 - May 2025",
     grade: "4/4",
-    desc: "I am currently pursuing a Master's degree in Computer Science and Engineering at Texas A&M University. I completed 1 semester and have a CGPA of 4. I have taken courses in Machine Learning, Artificial Intelligence and Algorithms.",
+    desc: "I'm pursuing my Master of Computer Science at Texas A&M University in College Station, TX. My focus is on mastering artificial intelligence, machine learning, deep learning, and information storage and retrieval.",
     degree: "Master of Computer Science",
   },
   {
@@ -356,7 +462,7 @@ export const education = [
     school: "Vellore Institute of Technology, VIT-Vellore",
     date: "July 2017 - Jun 2021",
     grade: "9.25/10",
-    desc: "I completed my Bachelors at VIT in Electronics and Communication.",
+    desc: "I earned my Bachelor of Technology in Electronics & Communication Engineering from Vellore Institute of Technology. I gained expertise in electronics, communication networks and signal processing during this four-year program",
     degree: "B.Tech in ECE",
   },
   {
