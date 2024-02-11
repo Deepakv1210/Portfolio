@@ -7,7 +7,7 @@ export const Bio = {
       "Software Engineer",
     ],
     description:
-      "Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Gen Ai and large language models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
+      "Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Generative Ai and Large Language Models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
     github: "https://github.com/Deepakv1210",
     resume:
       "https://drive.google.com/file/d/1CqhSLtjNbnMCx5O9KvWrriQVnjp6TXqY/view?usp=sharing",
