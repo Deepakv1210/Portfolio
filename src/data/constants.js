@@ -189,7 +189,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://purepng.com/public/uploads/large/purepng.com-cbre-group-logologobrand-logoiconslogos-251519938205ihnco.png",
+      img: "https://commons.wikimedia.org/wiki/Category:CBRE_Group_logos#/media/File:CBRE_logo.png",
       role: "Software Engineer Intern (AI/ML)", 
       company: "CBRE",
       date: "Jun 2024 - Aug 2024",
