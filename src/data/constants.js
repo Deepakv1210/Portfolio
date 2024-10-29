@@ -2,17 +2,19 @@ export const Bio = {
     name: "Deepak Kumar",
     roles: [
       "ML Engineer",
-      "Data Scientist",
-      "Data Engineer",
       "Software Engineer",
+      "Data Scientist",
+      "AI Engineer",
     ],
     description:
-      "Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Generative Ai and Large Language Models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
-    github: "https://github.com/Deepakv1210",
+      //"Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Generative Ai and Large Language Models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
+      //"Tech explorer with a relentless drive for innovation! Whether it’s creating AI models, building self-healing networks, or training autonomous bots to navigate complex paths, I’m driven by the thrill of turning ideas into impactful solutions. I’m passionate about Generative AI, LLMs, and anything at the intersection of tech and creativity. Let’s connect, brainstorm, and see how we can turn ambitious ideas into reality!!",
+        "Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
+      github: "https://github.com/Deepakv1210",
     resume:
       "https://drive.google.com/file/d/1dEQZII2Jrmga19XltWkZGlJdiZw-wC0L/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-k/",
-    twitter: "https://twitter.com/_ScaryNinja_",
+    //twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
   };
   
@@ -57,6 +59,10 @@ export const Bio = {
         {
           name: "Scikit-Learn",
           image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Scikit_learn_logo.svg",
+        },
+        {
+          name: "R",
+          image: "https://download.logo.wine/logo/R_(programming_language)/R_(programming_language)-Logo.wine.png",
         },
         {
           name: "LlamaIndex",
@@ -106,6 +112,11 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
         },
+        {
+          name: "Flask",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
+        },
       ],
     },
     {
@@ -137,11 +148,6 @@ export const Bio = {
             "https://dbdb.io/media/logos/pinecone.png",
         },
         {
-          name: "Supabase",
-          image:
-            "https://media.zeemly.com/zeemly/product/supabase.png",
-        },
-        {
           name: "Cisco Packet Tracer",
           image:
             "https://filekumar.com/wp-content/uploads/2020/07/packet-Tracer-Picture.png",
@@ -151,7 +157,11 @@ export const Bio = {
           image:
             "https://cdn1.vectorstock.com/i/1000x1000/77/30/sql-database-icon-logo-design-ui-or-ux-app-vector-17507730.jpg",
         },
-        
+        {
+          name: "REST APIs",
+          image:
+            "https://img.icons8.com/?size=100&id=55497&format=png&color=000000",
+        },
       ],
     },
     {
@@ -173,9 +183,29 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
         {
+          name: "Kubernetes",
+          image:
+            "https://pnghq.com/wp-content/uploads/kubernetes-logo-png-free-image-png-80950-2048x1989.png", 
+        },
+        {
+          name: "AWS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+        },
+        {
+          name: "Azue DevOps",
+          image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjpBZBPyUPZZhVBPyhZS2NmGBjEmPEmcTm1A&s",
+        },
+        {
           name: "Anaconda",
           image:
             "https://www.clipartmax.com/png/middle/349-3490136_anaconda-icon-anaconda-python-icon.png",
+        },
+        {
+          name: "Matlab",
+          image:
+            "https://logos-world.net/wp-content/uploads/2020/12/MATLAB-Symbol.jpg",
         },
         {
           name: "VS Code",
@@ -208,7 +238,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://media.licdn.com/dms/image/C4E0BAQFhbhx9OyyNaA/company-logo_200_200/0/1643905081837/the_endeavr_institute_logo?e=2147483647&v=beta&t=SY2H6lGMBS_ipY3kXXjuZWfdR4ziByeOgDfTPPHxrkg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnb_Zduypk3Qv6F5CoaGG2ecq0NlaBKFSJzvxStNPocxAbXD-94QW1y1DUV5tVzgKOHUg&usqp=CAU",
       role: "Machine Learning Engineer",
       company: "ENDEAVR - Texas A&M University",
       date: "Sep 2023 - Feb 2024",
@@ -261,7 +291,7 @@ export const Bio = {
     },
     {
       id: 4,
-      img: "https://media-exp1.licdn.com/dms/image/C510BAQE-fB-_gjfrPw/company-logo_200_200/0/1568394982816?e=2159024400&v=beta&t=JTj38t9MzVRN5JJgn2EYIyZcz9lCqMo58MM_j-Z0tUU",
+      img: "https://ligermobility.com/wp-content/uploads/2023/01/Silver-Transparent.png",
       role: "Machine Learning Intern",
       company: "Liger Mobility",
       date: "Mar 2021 - Jun 2021",
@@ -283,11 +313,50 @@ export const Bio = {
 
 
 export const projects = [
-
   {
     id: 0,
+    title: "LLM For Kubernetes",
+    date: "Mar 2024 - May 2024",
+    description:
+      "This project leverages LLMs to automate Kubernetes resource management, enhancing efficiency for troubleshooting and bug identification and reducing human intervention in container orchestration.",
+    image:
+      "https://github.com/user-attachments/assets/c59d0867-5922-4b47-ad88-edeb936fe31b",
+    tags: [
+      "Python",
+      "LLMs",
+      "Kubernetes",
+      "OpenTelemetry",
+      "KnowledgeGraph",
+    ],
+    category: "Gen AI",
+    github: "https://github.com/Deepakv1210/LLM-For-Kubernetes",
+    webapp: "https://deepakv1210.github.io/LLM-For-Kubernetes/",
+  },
+  {
+    id: 1,
+    title: "Dynamic Web Retrieval Engine",
+    date: "Jan 2024 - Feb 2024",
+    description:
+      "This search engine integrates automated workflows for efficient user query handling, enhancing relevancy and minimizing content hallucination through dynamic retrieval, grading, and web scraping.",
+    image:
+      "https://github.com/user-attachments/assets/d78bf1ab-fae5-4e63-b577-abe21195da37",
+    tags: [
+      "Python",
+      "LLMs",
+      "Pytorch",
+      "Transformers",
+      "Langchain",
+      "LangGraph",
+      "Tavily API",
+    ],
+    category: "Gen AI",
+    github: "https://github.com/Deepakv1210/Dynamic-Web-Retrieval-Engine",
+    webapp: "https://github.com/Deepakv1210/Dynamic-Web-Retrieval-Engine",
+  },
+  {
+    id: 2,
     title: "Personal AI Chatbot",
-    date: "Dec 2023 - Present",
+    date: "Dec 2023 - Feb 2024",
     description:
       "The AI Chat App seamlessly integrates audio, image, and PDF AI models, with zero-cost implementation and an interactive interface, leveraging the open-source Mistral LLM and Ollama.",
     image:
@@ -307,7 +376,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
   },
   {
-    id: 1,
+    id: 3,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -320,13 +389,13 @@ export const projects = [
     webapp: "https://braintumorsegmentationwebapp.streamlit.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Sentiment Analysis",
     date: "Sep 2023 - Dec 2023",
     description:
       "Unlock the power of sentiment analysis on Yelp reviews using cutting-edge BERT-based Transformers.",
     image:
-      "https://private-user-images.githubusercontent.com/154148155/303810575-6cc79661-90a7-494b-ae0b-845b41eb75a7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc1OTA4MTQsIm5iZiI6MTcwNzU5MDUxNCwicGF0aCI6Ii8xNTQxNDgxNTUvMzAzODEwNTc1LTZjYzc5NjYxLTkwYTctNDk0Yi1hZTBiLTg0NWI0MWViNzVhNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxMFQxODQxNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yMGE2NzE4NTI0ZjY2MzgxOTNkZmRkYzQxOWMxODJmMjc0YjgzNDkyNTkwMGU0N2QyODc1NmFlZGZiNmQzNmRkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.K8wlhkYiZTXsVu14lmJrV02gH9XxqURMAVOPHxI3bJE",
+      "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/assets/154148155/6cc79661-90a7-494b-ae0b-845b41eb75a7",
     tags: [
       "Python",
       "Pytorch",
@@ -340,7 +409,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -395,7 +464,7 @@ export const projects = [
   // },
 
   {
-    id: 4,
+    id: 6,
     title: "Smart ATS - Resume Evaluation with Generative AI",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -413,7 +482,7 @@ export const projects = [
     webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Personalized Diet and Workout Recommender App",
     date: "Aug 2023 - Sep 2023",
     description:
@@ -433,7 +502,7 @@ export const projects = [
     webapp: "https://diet-recommender.streamlit.app/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Intelligent Image Compression",
     date: "Mar 2021 - April 2021",
     description:
@@ -462,16 +531,16 @@ export const education = [
     school: "Texas A&M University, College Station, Texas",
     date: "Aug 2023 - May 2025",
     grade: "4/4",
-    desc: "I'm pursuing my Master of Computer Science at Texas A&M University in College Station, TX. My focus is on mastering artificial intelligence, machine learning, deep learning, and information storage and retrieval.",
+    desc: "I'm pursuing my Master's in Computer Science at Texas A&M University in College Station, TX, with a specialization in Generative AI and Machine Learning",
     degree: "Master of Computer Science",
   },
   {
     id: 1,
-    img: "https://storage.googleapis.com/ezap-prod/colleges/4505/1462520333logonew.png",
+    img: "https://upload.wikimedia.org/wikipedia/en/c/c5/Vellore_Institute_of_Technology_seal_2017.svg",
     school: "Vellore Institute of Technology, VIT-Vellore",
     date: "July 2017 - Jun 2021",
     grade: "9.25/10",
-    desc: "I earned my Bachelor of Technology in Electronics & Communication Engineering from Vellore Institute of Technology. I gained expertise in electronics, communication networks and signal processing during this four-year program",
+    desc: "I earned my Bachelor of Technology in Electronics & Communication Engineering from Vellore Institute of Technology, where I gained expertise in electronics, communication networks, signal processing, and machine learning during the four-year program.",
     degree: "B.Tech in ECE",
   },
   {
@@ -480,7 +549,7 @@ export const education = [
     school: "SBOA School and Junior College",
     date: "Apr 2015 - Apr 2017",
     grade: "90%",
-    desc: "I completed my class 12 education at SBOA School and Junior College.",
+    desc: "I completed my Class 12 education at SBOA School and Junior College.",
     degree: "CBSE(XII), Computer Science",
   },
 ];
