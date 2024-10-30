@@ -1,5 +1,5 @@
 export const Bio = {
-    name: "Deepak Kumar",
+    name: "Deepak Kumar V",
     roles: [
       "ML Engineer",
       "Software Engineer",
@@ -12,7 +12,7 @@ export const Bio = {
         "Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
       github: "https://github.com/Deepakv1210",
     resume:
-      "https://drive.google.com/file/d/1dEQZII2Jrmga19XltWkZGlJdiZw-wC0L/view?usp=sharing",
+      "https://drive.google.com/file/d/1zwN1AvJ9DEVsolcqOSDbfBqiqjEHd1eg/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-k/",
     //twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
@@ -217,6 +217,7 @@ export const Bio = {
   ];
   
   export const experiences = [
+
     {
       id: 0,
       img: "https://media.glassdoor.com/sqls/465818/cbre-squareLogo-1631711657851.png",
@@ -313,8 +314,31 @@ export const Bio = {
 
 
 export const projects = [
+
   {
     id: 0,
+    title: "Echoes of Choice: Dynamic Endings with AI",
+    date: "Sept 2024 - Present",
+    description:
+      "This project leverages AI algorithms to create a unique gameplay experience by personalizing narratives based on player interactions, maintaining high engagement levels and enabling multiple storylines. ⚠️ Note: This project is currently under development",
+    image:
+      "https://deepakv1210.github.io/img1.png",
+    tags: [
+      "React.js",
+      "Flask",
+      "Python",
+      "LLMs",
+      "Langchain",
+      "NLP",
+      "REST APIs",
+      "CSS",
+    ],
+    category: "Gen AI",
+    github: "https://deepakv1210.github.io/",
+    webapp: "https://deepakv1210.github.io/",
+  },
+  {
+    id: 1,
     title: "LLM For Kubernetes",
     date: "Mar 2024 - May 2024",
     description:
@@ -333,7 +357,7 @@ export const projects = [
     webapp: "https://deepakv1210.github.io/LLM-For-Kubernetes/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Dynamic Web Retrieval Engine",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -354,7 +378,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Dynamic-Web-Retrieval-Engine",
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal AI Chatbot",
     date: "Dec 2023 - Feb 2024",
     description:
@@ -376,7 +400,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
   },
   {
-    id: 3,
+    id: 4,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -389,7 +413,7 @@ export const projects = [
     webapp: "https://braintumorsegmentationwebapp.streamlit.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Sentiment Analysis",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -409,7 +433,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -464,7 +488,7 @@ export const projects = [
   // },
 
   {
-    id: 6,
+    id: 7,
     title: "Smart ATS - Resume Evaluation with Generative AI",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -482,7 +506,7 @@ export const projects = [
     webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Personalized Diet and Workout Recommender App",
     date: "Aug 2023 - Sep 2023",
     description:
@@ -502,7 +526,7 @@ export const projects = [
     webapp: "https://diet-recommender.streamlit.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Intelligent Image Compression",
     date: "Mar 2021 - April 2021",
     description:
@@ -520,7 +544,6 @@ export const projects = [
     github: "https://github.com/Deepakv1210/Discrete-Cosine-Transform-for-Intelligent-Image-Compression",
     webapp: "https://github.com/Deepakv1210/Discrete-Cosine-Transform-for-Intelligent-Image-Compression",
   },
-
 
 ];
 
