@@ -224,9 +224,10 @@ export const Bio = {
       role: "Software Engineer Intern (AI/ML)", 
       company: "CBRE",
       date: "Jun 2024 - Aug 2024",
-      desc: "During my internship with the CBRE Valuation and Advisory Team, I designed a system for appraisers leveraging Azure AI models and NLP techniques to summarize property details based on their personalized writing styles, enhancing productivity by 80%. Additionally, I deployed a PostgreSQL database to manage appraiser and property records with a strategically designed schema and integrated REST APIs using Flask for seamless CRUD operations. I also improved data extraction from LLM by adding confidence scores, reducing human intervention by 50%.",
+      desc: "During my internship at CBRE, I worked on integrating AI-powered solutions into property management workflows. I developed a feature leveraging Azure OpenAI and NLP techniques to generate personalized property summaries, improving appraiser productivity by 80%. Additionally, I built and optimized RESTful APIs with Flask, streamlining PostgreSQL database workflows to efficiently manage 10,000+ property records. My work also involved implementing probabilistic confidence scoring for LLM-generated data, which reduced manual verification efforts by 50%.",
       skills: [
         "Python",
+        "React",
         "NLP",
         "Azure AI",
         "PostgreSQL",
@@ -257,22 +258,22 @@ export const Bio = {
       ],
       //doc: "",
     },
+    // {
+    //   id: 2,
+    //   img: "https://th.bing.com/th?id=OIP.zMCBY7FrxpY_0cLxxZU-rQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+    //   role: "Student Assistant",
+    //   company: "Texas A&M University",
+    //   date: "Sep 2023 - Dec 2023",
+    //   desc: "Worked as a Grader for ECEN 755 Stochastic Systems under Professor P.R. Kumar.",
+    //   // doc: "",
+    // },
     {
       id: 2,
-      img: "https://th.bing.com/th?id=OIP.zMCBY7FrxpY_0cLxxZU-rQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
-      role: "Student Assistant",
-      company: "Texas A&M University",
-      date: "Sep 2023 - Dec 2023",
-      desc: "Worked as a Grader for ECEN 755 Stochastic Systems under Professor P.R. Kumar.",
-      // doc: "",
-    },
-    {
-      id: 3,
       img: "https://vtlogo.com/wp-content/uploads/2020/12/act-fibernet-vector-logo-small.png",
       role: "Machine Learning Engineer",
       company: "ACT Fibernet",
       date: "Aug 2021 - Mar 2023",
-      desc: 'Consistently drove impactful initiatives by leveraging advanced data analytics and machine learning techniques. Collaborated closely with the NOC team to achieve 75% accuracy in predicting failures of Huawei, Nokia, and Juniper switches, resulting in a substantial reduction in system downtime. Led a data-driven churn analysis initiative, utilizing the XGBoost classifier to enhance customer retention by 10%. Improved sales forecasting accuracy by 20%, contributing to a $150,000 increase in revenue. Strengthened cybersecurity by implementing real-time detection of suspicious network activity, reducing false negatives by 30% and improving threat identification. Developed and implemented an automated VLAN Loop Detection script, resulting in a 50% reduction in network incidents. Presented technical findings to non-technical stakeholders, effectively translating complex data into understandable insights and actionable recommendations.',
+      desc: 'At ACT Fibernet, I developed ML-driven predictive analytics solutions to enhance network reliability. I built and deployed a predictive model on AWS SageMaker that forecasted network equipment failures with 75% accuracy, reducing system downtime. Additionally, I designed ETL pipelines with AWS Glue and Lambda to preprocess large-scale sales data, integrating results into time-series forecasting models. I also led a churn analysis initiative using XGBoost, identifying key drivers of customer attrition and improving retention rates by 10%. Another key contribution was developing anomaly detection models for network activity monitoring, improving threat detection accuracy while reducing false positives by 25%.',
       skills: [
         "Python",
         "Perl",
@@ -291,12 +292,12 @@ export const Bio = {
       ],
     },
     {
-      id: 4,
+      id: 3,
       img: "https://ligermobility.com/wp-content/uploads/2023/01/Silver-Transparent.png",
       role: "Machine Learning Intern",
       company: "Liger Mobility",
       date: "Mar 2021 - Jun 2021",
-      desc: "As an intern, I engineered intricate road profiles in MATLAB and Simulink, optimizing vehicle performance with a 20% improvement in system responsiveness. Additionally, I built a Raspberry Pi-powered autonomous four-wheeler bot, implementing obstacle avoidance using Deep Learning and Computer Vision, leading to a significant enhancement in navigation precision.",
+      desc: "As an intern at Liger Mobility, I worked on AI and simulation-based automation for autonomous vehicle research. I developed and trained a CNN-based model on Raspberry Pi using OpenCV and Python, which improved obstacle avoidance by 30%. Additionally, I analyzed road profile data in MATLAB and Simulink, applying statistical models to enhance vehicle stability and responsiveness by 20%.",
       skills: [
         "Python",
         "Respberry Pi",
@@ -322,7 +323,7 @@ export const projects = [
     description:
       "Echoes of Choice is an immersive interactive storytelling platform where your decisions shape the narrative. Experience carefully crafted stories or AI-generated adventures where every choice matters and influences your character's development.",
     image:
-      "eoc.png",
+      "/eoc.png",
     tags: [
       "React",
       "Flask",
@@ -563,7 +564,7 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/c/c5/Vellore_Institute_of_Technology_seal_2017.svg",
     school: "Vellore Institute of Technology, VIT-Vellore",
     date: "July 2017 - Jun 2021",
-    grade: "9.25/10",
+    grade: "9.2/10",
     desc: "I earned my Bachelor of Technology in Electronics & Communication Engineering from Vellore Institute of Technology, where I gained expertise in electronics, communication networks, signal processing, and machine learning during the four-year program.",
     degree: "B.Tech in ECE",
   },
