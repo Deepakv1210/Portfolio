@@ -12,7 +12,7 @@ export const Bio = {
         "Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
       github: "https://github.com/Deepakv1210",
     resume:
-      "https://drive.google.com/file/d/1zwN1AvJ9DEVsolcqOSDbfBqiqjEHd1eg/view?usp=sharing",
+      "https://drive.google.com/file/d/1WQ-FcezngVU1r6fKRGrqyz97luB33ZE6/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-k/",
     //twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
@@ -320,22 +320,23 @@ export const projects = [
     title: "Echoes of Choice: Dynamic Endings with AI",
     date: "Sept 2024 - Present",
     description:
-      "This project leverages AI algorithms to create a unique gameplay experience by personalizing narratives based on player interactions, maintaining high engagement levels and enabling multiple storylines. ⚠️ Note: This project is currently under development",
+      "Echoes of Choice is an immersive interactive storytelling platform where your decisions shape the narrative. Experience carefully crafted stories or AI-generated adventures where every choice matters and influences your character's development.",
     image:
-      "https://deepakv1210.github.io/img1.png",
+      "https://github.com/Deepakv1210/echoes-of-choice/blob/main/public/placeholder.png",
     tags: [
-      "React.js",
+      "React",
       "Flask",
       "Python",
       "LLMs",
       "Langchain",
       "NLP",
+      "Typescript",
       "REST APIs",
-      "CSS",
+      "Tailwind CSS",
     ],
     category: "Gen AI",
-    github: "https://deepakv1210.github.io/",
-    webapp: "https://deepakv1210.github.io/",
+    github: "https://echoes-of-choice.vercel.app/",
+    webapp: "https://echoes-of-choice.vercel.app/",
   },
   {
     id: 1,
