@@ -322,14 +322,14 @@ export const projects = [
     description:
       "Echoes of Choice is an immersive interactive storytelling platform where your decisions shape the narrative. Experience carefully crafted stories or AI-generated adventures where every choice matters and influences your character's development.",
     image:
-      "https://github.com/Deepakv1210/echoes-of-choice/blob/main/public/placeholder.png",
+      "eoc.png",
     tags: [
       "React",
       "Flask",
       "Python",
       "LLMs",
       "Langchain",
-      "NLP",
+      "Supabase",
       "Typescript",
       "REST APIs",
       "Tailwind CSS",
