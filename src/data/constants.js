@@ -8,11 +8,11 @@ export const Bio = {
     ],
     description:
       //"Tech explorer with a relentless drive for innovation! Passionate about crafting autonomous vehicles, pioneering self-healing networks, and delving into the fascinating realms of Generative Ai and Large Language Models (LLMs) to tackle real-world challenges. Let's connect and explore the endless possibilities at the intersection of technology and imagination!!",
-      //"Tech explorer with a relentless drive for innovation! Whether it’s creating AI models, building self-healing networks, or training autonomous bots to navigate complex paths, I’m driven by the thrill of turning ideas into impactful solutions. I’m passionate about Generative AI, LLMs, and anything at the intersection of tech and creativity. Let’s connect, brainstorm, and see how we can turn ambitious ideas into reality!!",
-        "Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
+      "I’m always chasing the next big challenge in AI and software engineering. I love turning complex problems into elegant solutions. I’ve worked on everything from predictive models and AI-driven apps to optimizing large-scale systems, and I’m always looking for ways to push the boundaries. Let’s connect and see what ambitious ideas we can bring to life!!",
+      //"Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
       github: "https://github.com/Deepakv1210",
     resume:
-      "https://drive.google.com/file/d/1WQ-FcezngVU1r6fKRGrqyz97luB33ZE6/view?usp=drive_link",
+      "https://drive.google.com/file/d/1Ki_AjVTqkb8enCPmJ0KFihKp7WSsh1mY/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-k/",
     //twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
@@ -335,12 +335,35 @@ export const projects = [
       "REST APIs",
       "Tailwind CSS",
     ],
-    category: "Gen AI",
+    category: "Software",
     github: "https://echoes-of-choice.vercel.app/",
     webapp: "https://echoes-of-choice.vercel.app/",
   },
   {
     id: 1,
+    title: "Personalized Mail Composer: AI-Powered Email Writing",
+    date: "Feb 2025 - Present",
+    description:
+      "Personalized Mail Composer is an AI-powered Gmail writing assistant that enhances email productivity by analyzing user writing style and providing real-time autocomplete and response suggestions. It leverages hybrid personalization with RAG and fine-tuning techniques to ensure privacy-focused, high-quality email generation.",
+    image: "/gmail_assist.png",
+    tags: [
+      "Python",
+      "Flask",
+      "FAISS",
+      "SQLite",
+      "RAG",
+      "REST APIs",
+      "OpenAI",
+      "Javascript",
+      "Gmail API",
+      "OAuth 2.0"
+    ],
+    category: "Software",
+    github: "https://github.com/Deepakv1210/personalized-email-composer",
+    webapp: "https://github.com/Deepakv1210/personalized-email-composer"
+  },  
+  {
+    id: 2,
     title: "LLM For Kubernetes",
     date: "Mar 2024 - May 2024",
     description:
@@ -352,14 +375,15 @@ export const projects = [
       "LLMs",
       "Kubernetes",
       "OpenTelemetry",
-      "KnowledgeGraph",
+      "Docker Containers",
+      "Neo4j",
     ],
     category: "Gen AI",
     github: "https://github.com/Deepakv1210/LLM-For-Kubernetes",
     webapp: "https://deepakv1210.github.io/LLM-For-Kubernetes/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Dynamic Web Retrieval Engine",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -380,7 +404,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Dynamic-Web-Retrieval-Engine",
   },
   {
-    id: 3,
+    id: 4,
     title: "Personal AI Chatbot",
     date: "Dec 2023 - Feb 2024",
     description:
@@ -402,7 +426,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
   },
   {
-    id: 4,
+    id: 5,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -415,7 +439,7 @@ export const projects = [
     webapp: "https://braintumorsegmentationwebapp.streamlit.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Sentiment Analysis",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -435,7 +459,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -490,7 +514,7 @@ export const projects = [
   // },
 
   {
-    id: 7,
+    id: 8,
     title: "Smart ATS - Resume Evaluation with Generative AI",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -508,7 +532,7 @@ export const projects = [
     webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Personalized Diet and Workout Recommender App",
     date: "Aug 2023 - Sep 2023",
     description:
@@ -528,7 +552,7 @@ export const projects = [
     webapp: "https://diet-recommender.streamlit.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Intelligent Image Compression",
     date: "Mar 2021 - April 2021",
     description:

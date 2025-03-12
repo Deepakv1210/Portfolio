@@ -112,8 +112,7 @@ const Projects = ({openModal,setOpenModal}) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
-        </Desc>
+        I have worked on diverse projects, from AI-driven applications to scalable web platforms, leveraging modern frameworks and cloud technologies.</Desc>
         <ToggleGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
@@ -121,16 +120,22 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'ML' ?
-            <ToggleButton active value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
+          {toggle === 'Software' ?
+            <ToggleButton active value="Software" onClick={() => setToggle('Software')}>Software</ToggleButton>
             :
-            <ToggleButton value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
+            <ToggleButton value="Software" onClick={() => setToggle('Software')}>Software</ToggleButton>
           }
           <Divider />
           {toggle === 'Gen AI' ?
             <ToggleButton active value="Gen AI" onClick={() => setToggle('Gen AI')}>Gen AI</ToggleButton>
             :
             <ToggleButton value="Gen AI" onClick={() => setToggle('Gen AI')}>Gen AI</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'ML' ?
+            <ToggleButton active value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
+            :
+            <ToggleButton value="ML" onClick={() => setToggle('ML')}>ML</ToggleButton>
           }
           <Divider />
           {toggle === 'OTHERS' ?
