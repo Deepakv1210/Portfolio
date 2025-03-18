@@ -12,7 +12,7 @@ export const Bio = {
       //"Tech explorer with a relentless drive for innovation! From crafting AI models to building self-healing networks and training bots to navigate tricky paths, I’m all about mixing tech with creativity. Generative AI and LLMs? Count me in. Let’s connect and see what ambitious ideas we can bring to life!!",
       github: "https://github.com/Deepakv1210",
     resume:
-      "https://drive.google.com/file/d/1Ki_AjVTqkb8enCPmJ0KFihKp7WSsh1mY/view?usp=sharing",
+      "https://drive.google.com/file/d/1Ki_AjVTqkb8enCPmJ0KFihKp7WSsh1mY/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/deepak-kumar-v-k/",
     //twitter: "https://twitter.com/_ScaryNinja_",
     //insta: "https://www.instagram.com/deepak_v/",
@@ -336,8 +336,8 @@ export const projects = [
       "Tailwind CSS",
     ],
     category: "Software",
-    github: "https://echoes-of-choice.vercel.app/",
-    webapp: "https://echoes-of-choice.vercel.app/",
+    github: "https://echoes-of-choice-prod.vercel.app/",
+    webapp: "https://echoes-of-choice-prod.vercel.app/",
   },
   {
     id: 1,
