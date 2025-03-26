@@ -43,22 +43,25 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
         {
+          name: "MATLAB",
+          image: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+        },
+        {
           name: "Langchain",
           image:
             "https://styles.redditmedia.com/t5_7tpn6r/styles/communityIcon_vw08a423ptxa1.png",
         },
         {
           name: "Hugging Face",
-          image: "https://jobs.shecancode.io/uploads/job/logo/35985511/hugging_face.png",
+          image: "https://huggingface.co/front/assets/huggingface_logo.svg",
         },
-
         {
           name: "OpenCV",
           image: "https://raw.githubusercontent.com/github/explore/433c866c69205a7a46dc73d8b4bbc7c12a6638f6/topics/opencv/opencv.png",
         },
         {
           name: "Scikit-Learn",
-          image: "https://upload.wikimedia.org/wikipedia/commons/5/54/Scikit_learn_logo.svg",
+          image: "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png",
         },
         {
           name: "R",
@@ -88,11 +91,6 @@ export const Bio = {
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
         {
-          name: "CSS",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
@@ -117,20 +115,29 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg",
         },
+        {
+          name: "TypeScript",
+          image:
+            "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png",
+        },
+        {
+          name: "Tailwind CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        },
+        {
+          name: "Framer Motion",
+          image:
+            "https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png",
+        },
       ],
     },
     {
-      title: "Networks/Database",
+      title: "Database",
       skills: [
         {
-          name: "Wireshark",
-          image:
-            "https://www.pngkit.com/png/detail/365-3657626_wireshark-icon.png",
-        },
-        {
-          name: "MongoDB",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          name: "Supabase",
+          image: "https://images.seeklogo.com/logo-png/43/1/supabase-logo-png_seeklogo-435677.png",
         },
         {
           name: "PostgreSQL",
@@ -148,9 +155,12 @@ export const Bio = {
             "https://dbdb.io/media/logos/pinecone.png",
         },
         {
-          name: "Cisco Packet Tracer",
-          image:
-            "https://filekumar.com/wp-content/uploads/2020/07/packet-Tracer-Picture.png",
+          name: "SQLite",
+          image: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
+        },
+        {
+          name: "Neo4j",
+          image: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Neo4j-logo_color.png",
         },
         {
           name: "SQL",
@@ -162,10 +172,14 @@ export const Bio = {
           image:
             "https://img.icons8.com/?size=100&id=55497&format=png&color=000000",
         },
+        {
+          name: "Tableau",
+          image: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png",
+        },
       ],
     },
     {
-      title: "Others",
+      title: "Cloud/DevOps",
       skills: [
         {
           name: "Git",
@@ -198,19 +212,12 @@ export const Bio = {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjpBZBPyUPZZhVBPyhZS2NmGBjEmPEmcTm1A&s",
         },
         {
-          name: "Anaconda",
-          image:
-            "https://www.clipartmax.com/png/middle/349-3490136_anaconda-icon-anaconda-python-icon.png",
+          name: "GCP",
+          image: "https://cdn.prod.website-files.com/6449405754e757db07f25327/6656429d1776bd09704334e8_google.webp",
         },
         {
-          name: "Matlab",
-          image:
-            "https://logos-world.net/wp-content/uploads/2020/12/MATLAB-Symbol.jpg",
-        },
-        {
-          name: "VS Code",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          name: "Vercel",
+          image: "https://th.bing.com/th/id/OIP.uEi-BYi_M-Rnv9abB82xqwHaHa?rs=1&pid=ImgDetMain",
         },
       ],
     },
@@ -323,7 +330,7 @@ export const projects = [
     description:
       "Echoes of Choice is an immersive interactive storytelling platform where your decisions shape the narrative. Experience carefully crafted stories or AI-generated adventures where every choice matters and influences your character's development.",
     image:
-      "/eoc.png",
+      "/eoc1.png",
     tags: [
       "React",
       "Flask",
@@ -341,6 +348,48 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Florian AI Dashboard",
+    date: "Mar 2025 - Mar 2025",
+    description:
+      "A real-time alert dashboard that visualizes emergency call data analyzed by a fine-tuned Gemini 2.0 LLM. It identifies severity, predicts casualties, and flags false alarms to help TAMU EMS responders prioritize critical cases efficiently.",
+    image: "/florian_dash.png",
+    tags: [
+      "React",
+      "Python",
+      "Flask",
+      "Typescript",
+      "REST APIs",
+      "Gemini LLM",
+      "Fine Tuning",
+      "Tailwind CSS"
+    ],
+    category: "Software",
+    github: "https://github.com/Deepakv1210/florian-ai-dashboard",
+    webapp: "https://github.com/Deepakv1210/florian-ai-dashboard"
+  },
+  {
+    id: 2,
+    title: "Florian AI Web App: Emergency Voice Responder",
+    date: "Mar 2025 - Mar 2025",
+    description:
+      "An AI-powered voice responder that handles emergency medical calls when responders are busy. It extracts call transcripts in real-time and forwards them to a fine-tuned Gemini LLM for triage.",
+    image: "/florian_webapp.png",
+    tags: [
+      "Python",
+      "JavaScript",
+      "Next.js",
+      "Hume AI",
+      "Flask",
+      "REST APIs",
+      "Typescript",
+      "Tailwind CSS"
+    ],
+    category: "Software",
+    github: "https://github.com/Deepakv1210/FlorianAI",
+    webapp: "https://youtu.be/VM2yeWjZWgg"
+  },
+  {
+    id: 3,
     title: "Personalized Mail Composer: AI-Powered Email Writing",
     date: "Feb 2025 - Present",
     description:
@@ -358,12 +407,12 @@ export const projects = [
       "Gmail API",
       "OAuth 2.0"
     ],
-    category: "Software",
+    category: "Gen AI",
     github: "https://github.com/Deepakv1210/personalized-email-composer",
     webapp: "https://github.com/Deepakv1210/personalized-email-composer"
   },  
   {
-    id: 2,
+    id: 4,
     title: "LLM For Kubernetes",
     date: "Mar 2024 - May 2024",
     description:
@@ -383,7 +432,7 @@ export const projects = [
     webapp: "https://deepakv1210.github.io/LLM-For-Kubernetes/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Dynamic Web Retrieval Engine",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -404,7 +453,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Dynamic-Web-Retrieval-Engine",
   },
   {
-    id: 4,
+    id: 6,
     title: "Personal AI Chatbot",
     date: "Dec 2023 - Feb 2024",
     description:
@@ -426,7 +475,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Personal-AI-Chatbot",
   },
   {
-    id: 5,
+    id: 7,
     title: "Brain Tumor Detection",
     date: "Jan 2023 - Mar 2023",
     description:
@@ -439,7 +488,7 @@ export const projects = [
     webapp: "https://braintumorsegmentationwebapp.streamlit.app/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Sentiment Analysis",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -459,7 +508,7 @@ export const projects = [
     webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   },
   {
-    id: 7,
+    id: 9,
     title: "Stock Price Pred",
     date: "Sep 2023 - Dec 2023",
     description:
@@ -513,44 +562,44 @@ export const projects = [
   //   webapp: "https://github.com/Deepakv1210/Sentiment-Analysis-using-Transformers/",
   // },
 
-  {
-    id: 8,
-    title: "Smart ATS - Resume Evaluation with Generative AI",
-    date: "Jan 2024 - Feb 2024",
-    description:
-      "Smart Application Tracking System (ATS) is a Streamlit app powered by Google's GenerativeAI. This tool simulates an experienced ATS with expertise in the tech field, including software engineering, data science, data analysis, and big data engineering.",
-    image:
-      "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI/assets/154148155/e3fc10f6-7fce-49cd-a94e-9befb8c36df0",
-    tags: [
-      "Python",
-      "Google Generative AI",
-      "PyPDF",
-      "Streamlit",
-    ],
-    category: "Gen AI",
-    github: "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI",
-    webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
-  },
-  {
-    id: 9,
-    title: "Personalized Diet and Workout Recommender App",
-    date: "Aug 2023 - Sep 2023",
-    description:
-      "This is a web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a OpenAI API for a more interactive experience.",
-    image:
-      "https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/723ecf56-9ee3-4de8-a684-f6f0494c82be",
-    tags: [
-      "Python",
-      "Pytorch",
-      "Langchain",
-      "Transformers",
-      "OpenAI",
-      "Streamlit",
-    ],
-    category: "Gen AI",
-    github: "https://github.com/Deepakv1210/Diet-Recommender",
-    webapp: "https://diet-recommender.streamlit.app/",
-  },
+  // {
+  //   id: 8,
+  //   title: "Smart ATS - Resume Evaluation with Generative AI",
+  //   date: "Jan 2024 - Feb 2024",
+  //   description:
+  //     "Smart Application Tracking System (ATS) is a Streamlit app powered by Google's GenerativeAI. This tool simulates an experienced ATS with expertise in the tech field, including software engineering, data science, data analysis, and big data engineering.",
+  //   image:
+  //     "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI/assets/154148155/e3fc10f6-7fce-49cd-a94e-9befb8c36df0",
+  //   tags: [
+  //     "Python",
+  //     "Google Generative AI",
+  //     "PyPDF",
+  //     "Streamlit",
+  //   ],
+  //   category: "Gen AI",
+  //   github: "https://github.com/Deepakv1210/Smart-ATS---Resume-Evaluation-with-Generative-AI",
+  //   webapp: "https://smart-ats-resume-evaluation-with-generative-ai.streamlit.app/",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Personalized Diet and Workout Recommender App",
+  //   date: "Aug 2023 - Sep 2023",
+  //   description:
+  //     "This is a web application designed to provide personalized diet and workout recommendations based on user input. The recommendations are generated using a OpenAI API for a more interactive experience.",
+  //   image:
+  //     "https://github.com/Deepakv1210/Diet-Recommender/assets/154148155/723ecf56-9ee3-4de8-a684-f6f0494c82be",
+  //   tags: [
+  //     "Python",
+  //     "Pytorch",
+  //     "Langchain",
+  //     "Transformers",
+  //     "OpenAI",
+  //     "Streamlit",
+  //   ],
+  //   category: "Gen AI",
+  //   github: "https://github.com/Deepakv1210/Diet-Recommender",
+  //   webapp: "https://diet-recommender.streamlit.app/",
+  // },
   {
     id: 10,
     title: "Intelligent Image Compression",
